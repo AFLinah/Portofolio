@@ -2,7 +2,7 @@ import { rocket } from "../../assets";
 
 const Hero = () => {
     return (
-        <section className="bg-hero-bg bg-no-repeat bg-cover bg-top h-screen">
+        <section className="bg-hero-bg bg-no-repeat bg-cover h-screen">
             <div className="flex justify-center pt-[17rem]">
                 <div className="flex justify-center items-center w-1/2">
                     <div className="ml-[10rem]">
