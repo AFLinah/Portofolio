@@ -1,12 +1,14 @@
 import NavBar from "../components/NavBar"
 import Hero from "../components/sections/Hero";
+import Skills from "../components/sections/Skills";
 
 const HomePage = () => {
   return (
     <>
-      <div className="bg-slate-900">
+      <div>
         <NavBar/>
         <Hero />
+        <Skills/>
       </div>
     </>
   )

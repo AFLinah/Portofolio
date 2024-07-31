@@ -5,6 +5,7 @@ export default {
         extend: {
             backgroundImage: {
                 "hero-bg": "url('/src/assets/images/hero-bg.jpg')",
+                "stack-bg" : "url('/src/assets/images/stack-bg.jpg')",
             },
             keyframes: {
                 animate: {

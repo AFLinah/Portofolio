@@ -9,9 +9,9 @@ const NavBar = () => {
         setClick(!click);
     }
 
-    const clsListSm = "my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rouded"
+    const clsListSm = "my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rouded uppercase"
 
-    const clsListLg = "hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer"
+    const clsListLg = "hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer uppercase text-xl"
 
     const content = (
         <>
@@ -28,7 +28,7 @@ const NavBar = () => {
     );
 
     return (
-        <nav>
+        <nav className="absolute w-full">
             <div className="h-10vh flex justify-between z-50 text-white lg:py-5 px-20 py-4 flex-1">
                 <div className="flex items-center flex-1">
                     <span className="text-3xl font-bold">Logo</span>
