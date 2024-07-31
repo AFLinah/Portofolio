@@ -1,15 +1,14 @@
-import { Hero, NavBar, Team } from "../components/sections";
+import { Hero, NavBar, Team, Skills } from "../components/sections";
 
 const HomePage = () => {
-    return (
-        <>
-            <div className="bg-slate-900">
-                <NavBar />
-                <Hero />
-                <Team/>
-            </div>
-        </>
-    );
-};
+  return (
+      <div>
+        <NavBar/>
+        <Hero />
+        <Team/>
+        <Skills/>
+      </div>
+  )
+}
 
 export default HomePage;
