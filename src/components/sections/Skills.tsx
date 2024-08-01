@@ -4,12 +4,12 @@ function Skills() {
     const clsResponsive =
         "w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 xl:w-48 xl:h-48 rounded-full p-5 bg-white";
 
-    const clsImage = "object-contain w-full h-full p-4";
+    const clsImage = "object-contain w-full h-full lg:p-4 md:p-4";
 
-    return (
+    return ( 
         <section className="bg-stack-bg bg-no-repeat bg-cover bg-top min-h-screen flex flex-col">
             <div className="text-center py-10">
-                <p className="text-white text-6xl">
+                <p className="text-white lg:text-5xl md:text-4xl text-2xl">
                     Our engineers help on the following stack.
                 </p>
             </div>
